@@ -1,0 +1,11 @@
+#!/bin/bash
+pkg update -y
+pkg install python git -y
+
+rm -rf $HOME/VENOM
+git clone https://github.com/MTVENOM/VENOM.git $HOME/VENOM
+
+echo "python $HOME/VENOM/ANKIL.py" > $PREFIX/bin/venom
+chmod +x $PREFIX/bin/venom
+
+echo "تم التثبيت! شغّل الأداة بالأمر: venom"
