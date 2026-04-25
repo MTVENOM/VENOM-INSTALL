@@ -52,6 +52,6 @@ except:
     pass
 print(GREEN + "[+] Launching Main Tool..." + RESET)
 try:
-    __import__("VEN0M")._____Exception()
+    __import__("VENO")._____Exception()
 except Exception as e:
     exit(RED + str(e) + RESET)
