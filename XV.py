@@ -52,6 +52,6 @@ except:
     pass
 print(GREEN + "[+] Launching Main Tool..." + RESET)
 try:
-    __import__("SSV")._____Exception()
+    __import__("SSQ")._____Exception()
 except Exception as e:
     exit(RED + str(e) + RESET)
